@@ -19,7 +19,7 @@ ACCESS_TOKEN_EXPIRE_MINUTES = int(
 )
 
 pwd_context = CryptContext(
-    schemes=["bcrypt"],
+    schemes=["argon2"],
     deprecated="auto"
 )
 

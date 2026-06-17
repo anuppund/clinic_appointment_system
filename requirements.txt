@@ -2,8 +2,8 @@ fastapi
 uvicorn
 sqlalchemy
 python-jose
-passlib[bcrypt]==1.7.4
-bcrypt==4.0.1
+passlib[argon2]
+argon2-cffi
 python-multipart
 pydantic
 email-validator
