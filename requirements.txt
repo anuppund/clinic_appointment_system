@@ -8,3 +8,4 @@ python-multipart
 pydantic
 email-validator
 python-dotenv
+pip install python-multipart
